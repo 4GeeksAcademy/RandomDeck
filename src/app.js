@@ -19,9 +19,8 @@ window.onload = function() {
   container[0].appendChild(center)
 
  if (suit == "♥" || suit == "♦")  {
-  return "red" ;
-  
- }
+ container[0].style.color="red"
+  }
 
 };
  
