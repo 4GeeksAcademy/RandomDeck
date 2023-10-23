@@ -1,1 +1,47 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* *{
+    border: 1px dashed red
+}
+*/
+body{
+    background-color: green;
+    height: 100vh;
+     display: flex; 
+
+}
+
+.container {
+  background-color: white;
+   width: 300px;
+   height: 400px;
+   border-color: black;
+   margin: auto;
+   border-radius: 25px;
+   position: relative;
+   display: flex;
+   font-size: 3rem;
+   align-items: center;
+   justify-content: center;
+}
+
+span {
+    position: absolute;
+    
+}
+span:first-of-type {
+    top: 10px;
+    left: 15px;
+}
+span + span { 
+    bottom: 10px;
+    right: 15px;
+}
+
+.Button {
+  display: flex;
+   margin: auto;
+   font-size: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border-radius: 20px;
+   
+}
+
