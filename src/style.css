@@ -3,7 +3,7 @@
 }
 */
 body{
-    background-color: green;
+    background-color: rgb(182, 211, 182);
     height: 100vh;
      display: flex; 
 
@@ -21,6 +21,7 @@ body{
    font-size: 3rem;
    align-items: center;
    justify-content: center;
+   box-shadow: rgb(19, 17, 15);
 }
 
 span {
@@ -42,6 +43,11 @@ span + span {
    font-size: 30px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    border-radius: 20px;
+   box-shadow: 90px;
    
+}
+.Button:hover {
+    background-color: rgb(8, 188, 56);
+    color: aliceblue;
 }
 
